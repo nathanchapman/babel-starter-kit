@@ -1,0 +1,43 @@
+{
+  "name": "PROJECTNAME",
+  "version": "0.0.1",
+  "description": "Description",
+  "main": "lib/main.js",
+  "scripts": {
+    "lint": "eslint src/main.js",
+    "start": "babel-node src/example.js",
+    "test": "mocha --compilers js:babel-core/register",
+    "test:watch": "mocha --compilers js:babel-register --reporter min --watch",
+    "test:cover": "istanbul cover node_modules/mocha/bin/_mocha -- --compilers js:babel-core/register --colors test/",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "build": "babel src/ --out-dir lib/"
+  },
+  "keywords": [
+    "keyword"
+  ],
+  "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanchapman/PROJECTNAME.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanchapman/PROJECTNAME/issues"
+  },
+  "homepage": "https://github.com/nathanchapman/PROJECTNAME#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "^6.14.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.12",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-react": "^6.1.2",
+    "istanbul": "1.0.0-alpha.2",
+    "mocha": "^2.5.3"
+  }
+}

@@ -1,0 +1,11 @@
+coverage
+src
+test
+.babelrc
+.codeclimate.yml
+.DS_Store
+.eslintrc
+.gitignore
+.istanbul.yml
+.jshintrc
+.travis.yml
