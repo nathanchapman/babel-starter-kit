@@ -1,8 +1,5 @@
-import chai from 'chai';
-import mocha from 'mocha';
-const { assert, expect } = chai;
-
-import Main from '../src/main';
+import { assert, expect } from 'chai'
+import Main from '../src/Main';
 
 describe('TestSuite', () => {
   it('someFunction() should return `Wooo!`', () => {

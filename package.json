@@ -2,9 +2,9 @@
   "name": "PROJECTNAME",
   "version": "0.0.1",
   "description": "Description",
-  "main": "lib/main.js",
+  "main": "lib/Main.js",
   "scripts": {
-    "lint": "eslint src/main.js",
+    "lint": "eslint src/Main.js",
     "start": "babel-node src/example.js",
     "test": "mocha --compilers js:babel-core/register",
     "test:watch": "mocha --compilers js:babel-register --reporter min --watch",
