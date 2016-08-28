@@ -1,30 +1,27 @@
 {
-  "name": "PROJECTNAME",
+  "name": "babel-starter-kit",
   "version": "0.0.1",
-  "description": "Description",
+  "description": "Starter kit for writing node modules in ES6/ES2015",
   "main": "lib/Main.js",
+  "license": "MIT",
+  "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
+  "repository": "nathanchapman/babel-starter-kit",
+  "homepage": "https://github.com/nathanchapman/babel-starter-kit#readme",
+  "bugs": "https://github.com/nathanchapman/babel-starter-kit/issues",
+  "keywords": [
+    "babel",
+    "starter",
+    "kit"
+  ],
   "scripts": {
-    "lint": "eslint src/Main.js",
     "start": "babel-node src/example.js",
+    "build": "babel src/ --out-dir lib/",
+    "lint": "eslint src/Main.js",
     "test": "mocha --compilers js:babel-core/register",
     "test:watch": "mocha --compilers js:babel-register --reporter min --watch",
     "test:cover": "istanbul cover node_modules/mocha/bin/_mocha -- --compilers js:babel-core/register --colors test/",
-    "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "build": "babel src/ --out-dir lib/"
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
-  "keywords": [
-    "keyword"
-  ],
-  "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nathanchapman/PROJECTNAME.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nathanchapman/PROJECTNAME/issues"
-  },
-  "homepage": "https://github.com/nathanchapman/PROJECTNAME#readme",
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-core": "^6.14.0",
