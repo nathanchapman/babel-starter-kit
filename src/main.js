@@ -1,5 +1,5 @@
 /*!
- * main.js <https://github.com/nathanchapman/PROJECTNAME>
+ * main.js (https://github.com/nathanchapman/PROJECTNAME)
  *
  * Copyright (c) 2016 Nathan Chapman.
  * Licensed under the MIT license.
