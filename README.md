@@ -9,7 +9,7 @@ It comes with:
 * Eslint w/ Airbnb config (for cleaner code)
 * TravisCI, Coveralls, and CodeClimate configs
 * Initial files and unit tests
-* npm scripts for linting, testing, and building
+* Npm scripts for linting, testing, and building
 
 ## Installation
 #### Git
@@ -47,7 +47,7 @@ All of the features below are free for open source projects.
 
 #### Travis CI
 Travis CI is a continuous integration build system. You push changes to your repo, it makes sure those changes didn't break anything. To further improve this feedback, you want to strive for the highest amount of code coverage possible, which just means writing quality unit tests. Travis runs builds on all branches, which is great for pull requests and feature branches. Included is a `.travis.yml` file which instructs Travis to lint your code, run unit tests in several different Node.js environments, and report the coverage back to Coveralls.
-We've provided the configs, just head over to [travis-ci.org](travis-ci.org) to add your repo.
+We've provided the configs, just head over to [travis-ci.org](http://travis-ci.org) to add your repo.
 
 #### Coveralls
 Coveralls is just a web service to help you track your coverage over time. This integrates nicely with Greenkeeper, which we'll talk about next.
@@ -56,4 +56,4 @@ Coveralls is just a web service to help you track your coverage over time. This 
 Greenkeeper is an automated dependency management service. It keeps your dependencies up to date by creating pull requests. Because you have Travis CI and Coveralls set up, you'll now see information about the builds and code coverage on your pull requests. This will prevent dependency updates from breaking your builds and Greenkeeper will provide suggestions on how to fix these issues. Manually updating your dependencies or using explicit dependency versions are no longer necessary.
 
 #### CodeClimate
-CodeClimate provides analytics about your code and ultimately provides grades for each file with suggestions on improving. We've provided the configs, just head over to [codeclimate.com](codeclimate.com) to add your repo.
+CodeClimate provides analytics about your code and ultimately provides grades for each file with suggestions on improving. We've provided the configs, just head over to [codeclimate.com](http://codeclimate.com) to add your repo.
