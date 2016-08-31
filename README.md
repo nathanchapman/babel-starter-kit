@@ -30,15 +30,15 @@ $ npm install babel-starter-kit
 ## Scripts
 `start` runs src/example.js in the babel-node environment
 
-`build` compiles your library to `lib/`
+`build` compiles your library to `lib/` for publishing
 
 `lint` runs your code in `src/` through eslint with the Airbnb preset
 
 `test` runs your unit tests in `test/` with Mocha
 
-`test:watch` same as `test` script but watches for changes in a REPL
+`test:watch` same as `test` script but watches for changes to your files and waits in a REPL
 
-`test:cover` runs your unit tests with code coverage and outputs to the `coverage/` directory
+`test:cover` runs your unit tests with code coverage and outputs to `coverage/`
 
 `coveralls` is only used by Travis CI to publish coverage reports to coveralls
 
