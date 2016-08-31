@@ -1,0 +1,15 @@
+{
+  "name": "babel-starter-kit",
+  "description": "Starter kit for writing node modules in ES6/ES2015",
+  "main": "lib/Main.js",
+  "authors": [
+    "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)"
+  ],
+  "homepage": "https://github.com/nathanchapman/babel-starter-kit",
+  "license": "MIT",
+  "keywords": [
+    "babel",
+    "starter",
+    "kit"
+  ]
+}
