@@ -16,16 +16,19 @@ It comes with:
 ```sh
 $ git clone https://github.com/nathanchapman/babel-starter-kit.git
 ```
+Rename the directory, update project info in package.json, and run `npm install`.
 
 #### Bower
 ```sh
 $ bower install babel-starter-kit
 ```
+Move the directory from `bower_components/babel-starter-kit` to your workspace, update project info in package.json, and run `npm install`.
 
 #### Npm
 ```sh
 $ npm install babel-starter-kit
 ```
+Move the directory from `node_modules/babel-starter-kit/babel-starter-kit` to your workspace, update project info in package.json, and run `npm install`.
 
 ## Scripts
 `npm start` runs src/example.js in the babel-node environment
