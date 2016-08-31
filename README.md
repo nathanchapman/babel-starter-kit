@@ -57,3 +57,6 @@ Greenkeeper is an automated dependency management service. It keeps your depende
 
 #### CodeClimate
 CodeClimate provides analytics about your code and ultimately provides grades for each file with suggestions on improving. We've provided the configs, just head over to [codeclimate.com](http://codeclimate.com) to add your repo.
+
+## License
+MIT. See [LICENSE](LICENSE)
