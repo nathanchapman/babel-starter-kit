@@ -10,3 +10,19 @@ It comes with:
 * TravisCI, Coveralls, and CodeClimate configs
 * Initial files and unit tests
 * npm scripts for linting, testing, and building
+
+## Installation
+#### Git
+```sh
+$ git clone https://github.com/nathanchapman/babel-starter-kit.git
+```
+
+#### Bower
+```sh
+$ bower install babel-starter-kit
+```
+
+#### Npm
+```sh
+$ npm install babel-starter-kit
+```
