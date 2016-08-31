@@ -1,3 +1,13 @@
+/*!
+ * preinstall.js (https://github.com/nathanchapman/babel-starter-kit)
+ *
+ * This file is used to set up the directory for users who install
+ * via npm. It adds the .gitignore and .npmignore files.
+ *
+ * Copyright (c) 2016 Nathan Chapman.
+ * Licensed under the MIT license.
+ */
+
 var fs = require('fs');
 
 fs.stat('.npmignore', function(err, stat) {

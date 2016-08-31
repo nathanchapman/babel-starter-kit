@@ -9,7 +9,7 @@ describe('TestSuite', () => {
 
   it('someFunction() is called twice', () => {
     const wrapper = new Main();
-    const spy = sinon.spy(wrapper, "someFunction");
+    const spy = sinon.spy(wrapper, 'someFunction');
     spy();
     expect(spy.callCount).to.equal(1);
   });
