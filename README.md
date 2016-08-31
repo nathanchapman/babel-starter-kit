@@ -28,19 +28,19 @@ $ npm install babel-starter-kit
 ```
 
 ## Scripts
-`start` runs src/example.js in the babel-node environment
+`npm start` runs src/example.js in the babel-node environment
 
-`build` compiles your library to `lib/` for publishing
+`npm run build` compiles your library to `lib/` for publishing
 
-`lint` runs your code in `src/` through eslint with the Airbnb preset
+`npm run lint` runs your code in `src/` through eslint with the Airbnb preset
 
-`test` runs your unit tests in `test/` with Mocha
+`npm run test` runs your unit tests in `test/` with Mocha
 
-`test:watch` same as `test` script but watches for changes to your files and waits in a REPL
+`npm run test:watch` same as `npm run test` script but watches for changes to your files and waits in a REPL
 
-`test:cover` runs your unit tests with code coverage and outputs to `coverage/`
+`npm run test:cover` runs your unit tests with code coverage and outputs to `coverage/`
 
-`coveralls` is only used by Travis CI to publish coverage reports to coveralls
+`npm run coveralls` is only used by Travis CI to publish coverage reports to coveralls
 
 ## Additional Features
 All of the features below are free for open source projects.
