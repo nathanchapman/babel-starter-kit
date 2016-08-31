@@ -26,3 +26,18 @@ $ bower install babel-starter-kit
 ```sh
 $ npm install babel-starter-kit
 ```
+
+## Scripts
+`start` runs src/example.js in the babel-node environment
+
+`build` compiles your library to `lib/`
+
+`lint` runs your code in `src/` through eslint with the Airbnb preset
+
+`test` runs your unit tests in `test/` with Mocha
+
+`test:watch` same as `test` script but watches for changes in a REPL
+
+`test:cover` runs your unit tests with code coverage and outputs to the `coverage/` directory
+
+`coveralls` is only used by Travis CI to publish coverage reports to coveralls
