@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="babel-starter-kit" src="http://i.imgur.com/PlNr9z1.png" width="546">
+  <img alt="babel-starter-kit" src="http://i.imgur.com/Syob0fS.png" width="546">
 </p>
 
 <p align="center">
