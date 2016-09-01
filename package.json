@@ -1,7 +1,7 @@
 {
   "name": "babel-starter-kit",
-  "version": "0.1.5",
-  "description": "Starter kit for writing node modules in ES6/ES2015",
+  "version": "0.1.6",
+  "description": "The starter kit for writing next generation JavaScript Libraries",
   "main": "lib/Main.js",
   "license": "MIT",
   "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
