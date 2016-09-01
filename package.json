@@ -1,6 +1,6 @@
 {
   "name": "babel-starter-kit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Starter kit for writing node modules in ES6/ES2015",
   "main": "lib/Main.js",
   "license": "MIT",
