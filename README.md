@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://babeljs.io/">
-    <img alt="babel" src="http://i.imgur.com/XuXVlsl.png" width="546">
-  </a>
-</p>
+# Babel Starter Kit
 
 <p align="center">
   The starter kit for writing next generation JavaScript.
@@ -15,11 +11,8 @@
   <a href="https://codeclimate.com/github/nathanchapman/babel-starter-kit"><img alt="Code Climate" src="https://codeclimate.com/github/nathanchapman/babel-starter-kit/badges/gpa.svg"></a>
 </p>
 
-# Babel Starter Kit
+## Features
 
-This is my personal starter kit for writing node modules in ES6/ES2015.
-
-It comes with:
 * [Babel](https://babeljs.io/) (for transpiling ES6)
 * [Mocha](https://mochajs.org/) & [Chai](http://chaijs.com/) (for test suites and assertions)
 * [Eslint](http://eslint.org/) w/ [Airbnb](https://github.com/airbnb/javascript) config (for cleaner code)
