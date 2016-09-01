@@ -1,5 +1,21 @@
+<p align="center">
+  <a href="https://babeljs.io/">
+    <img alt="babel" src="http://i.imgur.com/XuXVlsl.png" width="546">
+  </a>
+</p>
+
+<p align="center">
+  The starter kit for writing next generation JavaScript.
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/babel-starter-kit"><img alt="Npm" src="https://img.shields.io/npm/v/babel-starter-kit.svg"></a>
+  <a href="https://travis-ci.org/nathanchapman/babel-starter-kit"><img alt="Build Status" src="https://travis-ci.org/nathanchapman/babel-starter-kit.svg?branch=master"></a>
+  <a href="https://coveralls.io/github/nathanchapman/babel-starter-kit?branch=master"><img alt="Coverage Status" src="https://coveralls.io/repos/github/nathanchapman/babel-starter-kit/badge.svg?branch=master"></a>
+  <a href="https://codeclimate.com/github/nathanchapman/babel-starter-kit"><img alt="Code Climate" src="https://codeclimate.com/github/nathanchapman/babel-starter-kit/badges/gpa.svg"></a>
+</p>
+
 # Babel Starter Kit
-[![npm](https://img.shields.io/npm/v/babel-starter-kit.svg)](https://www.npmjs.com/package/babel-starter-kit) [![Build Status](https://travis-ci.org/nathanchapman/babel-starter-kit.svg?branch=master)](https://travis-ci.org/nathanchapman/babel-starter-kit) [![Coverage Status](https://coveralls.io/repos/github/nathanchapman/babel-starter-kit/badge.svg?branch=master)](https://coveralls.io/github/nathanchapman/babel-starter-kit?branch=master) [![Code Climate](https://codeclimate.com/github/nathanchapman/babel-starter-kit/badges/gpa.svg)](https://codeclimate.com/github/nathanchapman/babel-starter-kit)
 
 This is my personal starter kit for writing node modules in ES6/ES2015.
 
