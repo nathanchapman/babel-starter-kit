@@ -5,11 +5,12 @@
 </p>
 
 <p align="center">
-  The starter kit for writing next generation JavaScript.
+  The starter kit for writing next generation JavaScript Libraries.
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/babel-starter-kit"><img alt="Npm" src="https://img.shields.io/npm/v/babel-starter-kit.svg"></a>
+  <a href="https://github.com/nathanchapman/babel-starter-kit"><img alt="Bower" src="https://img.shields.io/bower/v/babel-starter-kit.svg"></a>
   <a href="https://travis-ci.org/nathanchapman/babel-starter-kit"><img alt="Build Status" src="https://travis-ci.org/nathanchapman/babel-starter-kit.svg?branch=master"></a>
   <a href="https://coveralls.io/github/nathanchapman/babel-starter-kit?branch=master"><img alt="Coverage Status" src="https://coveralls.io/repos/github/nathanchapman/babel-starter-kit/badge.svg?branch=master"></a>
   <a href="https://codeclimate.com/github/nathanchapman/babel-starter-kit"><img alt="Code Climate" src="https://codeclimate.com/github/nathanchapman/babel-starter-kit/badges/gpa.svg"></a>
