@@ -1,6 +1,4 @@
-<p align="center">
-  <img alt="babel-starter-kit" src="logo.png" width="546">
-</p>
+# Babel Starter Kit
 
 <p align="center">
   The starter kit for writing next generation JavaScript Libraries.
