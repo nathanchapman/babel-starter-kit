@@ -4,10 +4,10 @@
 This is my personal starter kit for writing node modules in ES6/ES2015.
 
 It comes with:
-* Babel (for transpiling ES6)
-* Mocha & Chai (for test suites and assertions)
-* Eslint w/ Airbnb config (for cleaner code)
-* TravisCI, Coveralls, and CodeClimate configs
+* [Babel](https://babeljs.io/) (for transpiling ES6)
+* [Mocha](https://mochajs.org/) & [Chai](http://chaijs.com/) (for test suites and assertions)
+* [Eslint](http://eslint.org/) w/ [Airbnb](https://github.com/airbnb/javascript) config (for cleaner code)
+* [TravisCI](https://travis-ci.org/), [Coveralls](https://coveralls.io/), and [CodeClimate](https://codeclimate.com) configs
 * Initial files and unit tests
 * Npm scripts for linting, testing, and building
 
