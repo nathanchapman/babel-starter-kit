@@ -3,14 +3,23 @@ import { assert, expect } from 'chai';
 import Main from '../src/Main';
 
 describe('TestSuite', () => {
-  it('someFunction() should return `Wooo!`', () => {
-    expect(new Main().someFunction()).to.equal('Wooo!');
+  it('someMethod() should return `Wooo!`', () => {
+    expect(new Main().someMethod()).to.equal('Wooo!');
   });
 
-  it('someFunction() is called twice', () => {
+  it('someMethod() is called twice', () => {
     const wrapper = new Main();
-    const spy = sinon.spy(wrapper, 'someFunction');
-    spy();
-    expect(spy.callCount).to.equal(1);
+    const someMethod = sinon.spy(wrapper, 'someMethod');
+    someMethod.call(wrapper);
+    someMethod.restore();
+    sinon.assert.calledOnce(someMethod);
+  });
+
+  it('someOtherMethod() is called twice', () => {
+    const wrapper = new Main();
+    const someOtherMethod = sinon.spy(wrapper, 'someOtherMethod');
+    someOtherMethod();
+    someOtherMethod.restore();
+    sinon.assert.calledOnce(someOtherMethod);
   });
 });
