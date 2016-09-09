@@ -6,8 +6,13 @@
  */
 
 class Main {
-  someFunction() {
-    return 'Wooo!';
+  constructor() {
+    this.woo = 'Wooo!';
+    this.someOtherMethod = val => val;
+  }
+
+  someMethod() {
+    return this.woo;
   }
 }
 
