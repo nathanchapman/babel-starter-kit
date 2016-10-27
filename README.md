@@ -66,7 +66,7 @@ We've provided the configs, just head over to [travis-ci.org](http://travis-ci.o
 Coveralls is just a web service to help you track your coverage over time. This integrates nicely with Greenkeeper, which we'll talk about next.
 
 #### Greenkeeper
-Greenkeeper is an automated dependency management service. It keeps your dependencies up to date by creating pull requests. Because you have Travis CI and Coveralls set up, you'll now see information about the builds and code coverage on your pull requests. This will prevent dependency updates from breaking your builds and Greenkeeper will provide suggestions on how to fix these issues. Manually updating your dependencies or using explicit dependency versions are no longer necessary. See [PR #1](https://github.com/nathanchapman/babel-starter-kit/pull/1) for a good example.
+Greenkeeper is an automated dependency management service. It keeps your dependencies up to date by automatically creating pull requests. Because you have Travis CI and Coveralls set up, you'll now see information about the builds and code coverage on your pull requests. This will prevent dependency updates from breaking your builds and Greenkeeper will provide suggestions on how to fix these issues. Manually updating your dependencies or using explicit dependency versions are no longer necessary. See [PR #1](https://github.com/nathanchapman/babel-starter-kit/pull/1) for a good example.
 To setup Greenkeeper, run the following from the project folder:
 ```sh
 $ npm install -g greenkeeper
