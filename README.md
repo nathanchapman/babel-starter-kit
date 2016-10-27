@@ -75,7 +75,7 @@ $ greenkeeper enable
 ```
 
 #### CodeClimate
-CodeClimate provides analytics about your code and provides grades for each file with suggestions on improving. We've provided the configs, just head over to [codeclimate.com](http://codeclimate.com) to add your repo.
+CodeClimate provides analytics about your code and grades each file along with suggestions for improving. We've provided the configs, just head over to [codeclimate.com](http://codeclimate.com) to add your repo.
 
 ## License
 MIT. See [LICENSE](LICENSE)
