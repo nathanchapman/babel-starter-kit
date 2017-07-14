@@ -1,4 +1,3 @@
 import Main from './Main';
 
-const message = new Main().someFunction();
-console.log(message);
+console.log(new Main().someMethod());
