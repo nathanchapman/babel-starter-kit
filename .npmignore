@@ -3,7 +3,6 @@ src
 test
 .babelrc
 .codeclimate.yml
-.DS_Store
 .eslintignore
 .eslintrc
 .gitignore

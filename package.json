@@ -1,6 +1,6 @@
 {
     "name": "babel-starter-kit",
-    "version": "0.1.6",
+    "version": "0.1.8",
     "description": "The starter kit for writing next generation JavaScript Libraries",
     "main": "lib/Main.js",
     "license": "MIT",
@@ -21,7 +21,9 @@
         "test:watch": "mocha --compilers js:babel-register --reporter min --watch",
         "test:cover": "istanbul cover node_modules/mocha/bin/_mocha -- --compilers js:babel-core/register --colors test/",
         "coveralls": "cat ./coverage/lcov.info | coveralls",
-        "preinstall": "node preinstall.js"
+        "preinstall": "node preinstall.js",
+        "prepack": "node prepublish.js",
+        "postpack": "git checkout .npmignore"
     },
     "devDependencies": {
         "babel-cli": "^6.14.0",
