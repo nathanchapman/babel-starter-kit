@@ -10,5 +10,4 @@
 
 const fs = require('fs');
 
-fs.writeFileSync('.npmignore', '');
-// fs.unlinkSync('prepublish.js');
+fs.writeFileSync('.npmignore', 'coverage');

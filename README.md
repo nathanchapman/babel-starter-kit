@@ -1,4 +1,4 @@
-# Babel Starter Kit
+# babel-starter-kit
 
 <p align="center">
   The starter kit for writing next generation JavaScript Libraries.

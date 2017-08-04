@@ -39,12 +39,7 @@ let gitignore = [
 
 fs.writeFileSync('.gitignore', gitignore.join('\n'));
 
-// fs.readFile('package.json', 'utf8', function (err, data) {
-//   if (err) return console.log(err);
-//   var result = data.replace(/,\s*"preinstall": "node preinstall.js"/g, '');
-//   fs.writeFile('package.json', result, 'utf8', function (err) {
-//      if (err) return console.log(err);
-//   });
-// });
-//
-// fs.unlinkSync('preinstall.js');
+fs.unlinkSync('preinstall.js');
+fs.unlinkSync('prepublish.js');
+fs.unlinkSync('package.json'); // hmmmm
+console.log('Run `npm init` to create your package.json');

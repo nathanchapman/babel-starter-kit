@@ -2,7 +2,7 @@
 .DS_Store
 # generated files
 coverage
-lib
+dist
 *.log
 node_modules
 package-lock.json
