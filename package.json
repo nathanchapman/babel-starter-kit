@@ -21,7 +21,7 @@
         "test:watch": "mocha --compilers js:babel-register --reporter min --watch",
         "test:cover": "istanbul cover node_modules/mocha/bin/_mocha -- --compilers js:babel-core/register --colors test/",
         "coveralls": "cat ./coverage/lcov.info | coveralls",
-        "prepublish": "npm run build"
+        "prepublishOnly": "npm run build"
     },
     "devDependencies": {
         "babel-cli": "^6.14.0",
